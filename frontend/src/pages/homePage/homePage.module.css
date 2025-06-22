@@ -1,0 +1,96 @@
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    padding-inline: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 5vh;
+    padding-block: 10vh;
+    box-shadow: none;
+}
+
+.title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 650;
+}
+
+.subtitle{
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--dark-grey);
+}
+
+
+.subcaption{
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--dark-grey);
+  text-decoration: underline;
+}
+
+.formSection {
+    font-family: Raleway, Roboto;
+    width: 40vw;
+    background: #f9f9f9;
+    border-radius: 1.3vw;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    padding-block: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5vh;
+    box-shadow: none;
+    background: #f9f9f9;
+}
+
+.formInput{
+    display: block;
+    width: 30vw;
+    height: 7vh;
+    border-radius: 0.8vw;
+    padding-inline: 0.8vw;
+    border: 1px solid #ccc;
+}
+
+.formTextarea{
+    display: block;
+    width: 30vw;
+    height: 30vh;
+    border-radius: 0.8vw;
+    padding: 0.8vw;
+    border: 1px solid #ccc;
+    resize: none;
+}
+
+.notesContainer{
+    width: 100%;
+}
+
+.gridContainer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    column-gap:3vw;
+    row-gap: 3vh;
+    padding: 20px;
+}
+
+.error{
+    color: red;
+}
+
+.success{
+    color: green;
+}
